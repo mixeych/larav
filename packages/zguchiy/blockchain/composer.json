@@ -1,0 +1,33 @@
+{
+    "name": "zguchiy/blockchain",
+    "type": "library",
+    "description": "Blockchain package for laravel",
+    "keywords": [
+        "zguchiy",
+        "blockchain"
+    ],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitro",
+            "email": "zguchiy@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.6",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zguchiy\\Blockchain\\": "src"
+        }
+    }
+}
