@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
-        test
        
 
         <meta charset="utf-8">
